@@ -11,7 +11,6 @@ $countryInfo = "countryInfo";
 $flag = "flag";
 $cases = "cases";
 $todayCases ="todayCases";
-$deaths= "deaths";
 $recovered = "recovered";
 $active = "active";
 
@@ -60,9 +59,6 @@ font-weight: bold;
 </tr>
 <tr>
 <td>TODAY'S CASES</td><td style="color:#fff;"><?php echo $jsonObj->$todayCases; ?></td>
-</tr>
-<tr>
-<td>DEATHS</td><td style="color:#fff;"><?php echo $jsonObj->$deaths; ?></td>
 </tr>
 <tr>
 <td>RECOVERED</td><td style="color:#fff;"><?php echo $jsonObj->$recovered; ?></td>

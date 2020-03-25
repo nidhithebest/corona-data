@@ -58,7 +58,7 @@ font-weight: bold;
 <div style="margin-top:30px;">
 <table  align="center">
 <tr>
-<td>TOTAL CASES</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$cases; ?></td>
+<td>TOTAL CASES</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$flag;  ?></td>
 </tr>
 <tr>
 <td>TODAY'S CASES</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$todayCases; ?></td>

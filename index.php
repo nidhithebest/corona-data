@@ -15,8 +15,6 @@ $deaths= "deaths";
 $recovered = "recovered";
 $active = "active";
 
-
-echo $jsonObj->$countryInfo->$flag; 
 curl_close($curl);
 ?>
 <html>
@@ -53,7 +51,7 @@ font-weight: bold;
 <body>
 
 <div style="text-align:center;"><H1>CORONA COUNT NOW</H1></div>
-<div style="margin-top:30px;"><img src="https://flaglane.com/download/indian-flag/indian-flag-large.png" style="width:250px;; height:250px;" /></div>
+<div style="margin-top:30px;"><img src="https://flaglane.com/download/indian-flag/indian-flag-large.png" style="width:300px;; height:250px;" /></div>
 
 <div style="margin-top:30px;">
 <table  align="center">

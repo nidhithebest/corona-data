@@ -7,6 +7,7 @@
 echo "dollcy";
        $curl_response = curl_exec($curl);
 echo "dollu";
-       curl_close($curl);
+      var_dump($curl_response);
      echo "hello dolly"+$curl_response['flag'];  
+ curl_close($curl);
 ?>

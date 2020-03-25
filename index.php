@@ -53,7 +53,7 @@ font-weight: bold;
 <body>
 
 <div style="text-align:center;"><H1>CORONA COUNT NOW</H1></div>
-<div style="margin-top:30px;"><img src="https://raw.githubusercontent.com/NovelCOVID/API/master/assets/flags/in.png" style="width:500px; height:200px;" /></div>
+<div style="margin-top:30px;"><img src="https://raw.githubusercontent.com/NovelCOVID/API/master/assets/flags/in.png" style="width:500px; height:300px;" /></div>
 
 <div style="margin-top:30px;">
 <table  align="center">

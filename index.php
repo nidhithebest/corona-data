@@ -1,5 +1,5 @@
 <?php
-       $service_url = 'https://corona.lmao.ninja/countries/india';
+       $service_url = "https://corona.lmao.ninja/countries/india";
        $curl = curl_init($service_url);
        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
        curl_setopt($curl, CURLOPT_POST, false);

@@ -53,24 +53,24 @@ font-weight: bold;
 <body>
 
 <div style="text-align:center;"><H1>CORONA COUNT NOW</H1></div>
-<div style="margin-top:30px;"><img src="https://raw.githubusercontent.com/NovelCOVID/API/master/assets/flags/in.png" style="width:50%;" /></div>
+<div style="margin-top:30px;"><img src="https://raw.githubusercontent.com/NovelCOVID/API/master/assets/flags/in.png" style="width:500px; height:500px;" /></div>
 
 <div style="margin-top:30px;">
 <table  align="center">
 <tr>
-<td>TOTAL CASES</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$flag;  ?></td>
+<td>TOTAL CASES</td><td style="color:#fff;"><?php echo $jsonObj->$cases;  ?></td>
 </tr>
 <tr>
-<td>TODAY'S CASES</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$todayCases; ?></td>
+<td>TODAY'S CASES</td><td style="color:#fff;"><?php echo $jsonObj->$todayCases; ?></td>
 </tr>
 <tr>
-<td>DEATHS</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$deaths; ?></td>
+<td>DEATHS</td><td style="color:#fff;"><?php echo $jsonObj->$deaths; ?></td>
 </tr>
 <tr>
-<td>RECOVERED</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$recovered; ?></td>
+<td>RECOVERED</td><td style="color:#fff;"><?php echo $jsonObj->$recovered; ?></td>
 </tr>
 <tr>
-<td>ACTIVE</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$active; ?></td>
+<td>ACTIVE</td><td style="color:#fff;"><?php echo $jsonObj->$active; ?></td>
 </tr>
 
 </table>

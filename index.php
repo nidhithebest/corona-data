@@ -10,8 +10,8 @@
 $countryInfo = "countryInfo";
 $flag = "flag";
 
-echo "flaggie "+$jsonObj->$countryInfo->$flag;
- curl_close($curl);
+echo $jsonObj->$countryInfo->$flag; 
+curl_close($curl);
 ?>
 <html>
 <body>

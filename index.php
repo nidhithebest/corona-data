@@ -4,10 +4,14 @@
        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
        curl_setopt($curl, CURLOPT_POST, false);
        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
-echo "dollcy";
        $curl_response = curl_exec($curl);
-echo "dollu";
       var_dump($curl_response);
-     echo "hello dolly"+$curl_response['flag'];  
+     echo $curl_response['countryInfo']['flag'];  
  curl_close($curl);
 ?>
+<html>
+<body>
+     <div><img src="<?php echo $curl_response['countryInfo']['flag']; ?>" ></img></div>  
+</body>
+
+</html>

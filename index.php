@@ -9,13 +9,71 @@
     $jsonObj = json_decode($curl_response);
 $countryInfo = "countryInfo";
 $flag = "flag";
+$cases = "cases";
+$todayCases ="todayCases";
 
 echo $jsonObj->$countryInfo->$flag; 
 curl_close($curl);
 ?>
 <html>
-<body>
-     <div><img src="<?php echo $jsonObj->$countryInfo->$flag; ?>" ></img></div>  
-</body>
+<html>
+<head>
+<title>CORONA COUNT</title>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+background-image: url('https://cnet2.cbsistatic.com/img/rmj0S7_tD0BIrxU6Q-bYf_uzGS4=/1092x0/2020/03/06/05798b4a-3fda-4d7d-a10d-390b6ef0366b/gettyimages-1208505324.jpg');
+}
 
+tr {
+  background: red;
+  
+}
+td{
+margin:20px;
+padding:20px;
+text-align:center;
+vertical-align:middle;
+font-weight: bold;
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div style="text-align:center;"><H1>CORONA COUNT NOW</H1></div>
+<div style="margin-top:30px;"><img src="https://raw.githubusercontent.com/NovelCOVID/API/master/assets/flags/in.png" style="width:50%;" /></div>
+
+<div style="margin-top:30px;">
+<table  align="center">
+<tr>
+<td>TOTAL CASES</td><td style="color:#fff;"></td>
+</tr>
+<tr>
+<td>TODAY'S CASES</td><td style="color:#fff;"></td>
+</tr>
+<tr>
+<td>DEATHS</td><td style="color:#fff;"></td>
+</tr>
+<tr>
+<td>RECOVERED</td><td style="color:#fff;"></td>
+</tr>
+<tr>
+<td>ACTIVE</td><td style="color:#fff;"></td>
+</tr>
+<tr>
+<td>CRITICAL</td><td style="color:#fff;"></td>
+</tr>
+</table>
+</div>
+
+
+</body>
 </html>

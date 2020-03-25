@@ -11,6 +11,10 @@ $countryInfo = "countryInfo";
 $flag = "flag";
 $cases = "cases";
 $todayCases ="todayCases";
+$deaths= "deaths";
+$recovered = "recovered";
+$active = "active";
+
 
 echo $jsonObj->$countryInfo->$flag; 
 curl_close($curl);
@@ -54,23 +58,21 @@ font-weight: bold;
 <div style="margin-top:30px;">
 <table  align="center">
 <tr>
-<td>TOTAL CASES</td><td style="color:#fff;"></td>
+<td>TOTAL CASES</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$cases; ?></td>
 </tr>
 <tr>
-<td>TODAY'S CASES</td><td style="color:#fff;"></td>
+<td>TODAY'S CASES</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$todayCases; ?></td>
 </tr>
 <tr>
-<td>DEATHS</td><td style="color:#fff;"></td>
+<td>DEATHS</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$deaths; ?></td>
 </tr>
 <tr>
-<td>RECOVERED</td><td style="color:#fff;"></td>
+<td>RECOVERED</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$recovered; ?></td>
 </tr>
 <tr>
-<td>ACTIVE</td><td style="color:#fff;"></td>
+<td>ACTIVE</td><td style="color:#fff;"><?php echo $jsonObj->$countryInfo->$active; ?></td>
 </tr>
-<tr>
-<td>CRITICAL</td><td style="color:#fff;"></td>
-</tr>
+
 </table>
 </div>
 

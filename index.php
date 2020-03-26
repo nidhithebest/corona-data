@@ -51,7 +51,7 @@ tr {
   
 }
 td{
-margin:20px;
+#margin:20px;
 padding:20px;
 text-align:center;
 vertical-align:middle;

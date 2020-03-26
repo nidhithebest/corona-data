@@ -24,6 +24,8 @@ curl_close($curl);
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CORONA COUNT</title>
 <style>
+@media screen and (max-width: 481px){
+
 img {
   display: block;
   margin-left: auto;
@@ -55,7 +57,7 @@ vertical-align:middle;
 font-weight: bold;
 
 }
-
+}
 
 
 </style>

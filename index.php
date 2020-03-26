@@ -53,7 +53,7 @@ font-weight: bold;
 <body>
 
 <div style="text-align:center;"><H1>CORONA COUNT NOW</H1></div>
-<div style="margin-top:30px;"><span style="text-align:center;">INDIA</span></div>
+<div style="margin-top:30px; text-align:center;"><h3>INDIA<h3></div>
 
 <div style="margin-top:30px;">
 <table  align="center">

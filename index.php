@@ -61,7 +61,7 @@ font-weight: bold;
 }
 
 .green{
-bgcolor:green;
+background:green;
 }
 
 </style>

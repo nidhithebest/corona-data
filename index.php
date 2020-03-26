@@ -82,7 +82,7 @@ background: #FFFF99;
 <div style="margin-top:30px; text-align:center;"><h3>INDIA<h3></div>
 
 <div style="margin-top:30px;">
-<table  align="center">
+<table  align="center" style="position:fixed;">
 <tr class="blue">
 <td>TOTAL CASES</td><td><?php echo $jsonObj->$cases;  ?></td>
 </tr>

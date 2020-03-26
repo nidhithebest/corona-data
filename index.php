@@ -66,11 +66,11 @@ background:green;
 
 .red{ 
 
-#background:red;
+background:red;
 }
 
 .blue{ 
-#background: blue;
+background: #000fff;
 }
 
 
@@ -84,22 +84,22 @@ background:green;
 <div style="margin-top:30px;">
 <table  align="center">
 <tr class="blue">
-<td>TOTAL CASES</td><td style="color:#fff;"><?php echo $jsonObj->$cases;  ?></td>
+<td>TOTAL CASES</td><td><?php echo $jsonObj->$cases;  ?></td>
 </tr>
 <tr class="blue">
-<td>TODAY'S CASES</td><td style="color:#fff;"><?php echo $jsonObj->$todayCases; ?></td>
+<td>TODAY'S CASES</td><td><?php echo $jsonObj->$todayCases; ?></td>
 </tr>
 <tr class="green">
 <td>RECOVERED</td><td><?php echo $jsonObj->$recovered; ?></td>
 </tr>
        <tr class="red">
-<td>DEATHS</td><td style="color:#fff;"><?php echo $jsonObj->$deaths; ?></td>
+<td>DEATHS</td><td><?php echo $jsonObj->$deaths; ?></td>
 </tr>
        <tr class="red">
-<td>TODAY'S DEATHS</td><td style="color:#fff;"><?php echo $jsonObj->$todayDeaths; ?></td>
+<td>TODAY'S DEATHS</td><td><?php echo $jsonObj->$todayDeaths; ?></td>
 </tr>
 <tr class="blue">
-<td>ACTIVE</td><td style="color:#fff;"><?php echo $jsonObj->$active; ?></td>
+<td>ACTIVE</td><td><?php echo $jsonObj->$active; ?></td>
 </tr>
 
 </table>

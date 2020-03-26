@@ -70,7 +70,7 @@ background:red;
 }
 
 .blue{ 
-background: #000fff;
+background: #FFFF99;
 }
 
 

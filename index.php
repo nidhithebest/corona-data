@@ -13,6 +13,8 @@ $cases = "cases";
 $todayCases ="todayCases";
 $recovered = "recovered";
 $active = "active";
+$deaths = "deaths";
+$todayDeaths = "todayDeaths";
 
 curl_close($curl);
 ?>
@@ -62,6 +64,12 @@ font-weight: bold;
 </tr>
 <tr>
 <td>RECOVERED</td><td style="color:#fff;"><?php echo $jsonObj->$recovered; ?></td>
+</tr>
+       <tr>
+<td>DEATHS</td><td style="color:#fff;"><?php echo $jsonObj->$deaths; ?></td>
+</tr>
+       <tr>
+<td>TODAY'S DEATHS</td><td style="color:#fff;"><?php echo $jsonObj->$todayDeaths; ?></td>
 </tr>
 <tr>
 <td>ACTIVE</td><td style="color:#fff;"><?php echo $jsonObj->$active; ?></td>

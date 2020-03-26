@@ -61,16 +61,16 @@ font-weight: bold;
 }
 
 .green{
-background:green;
+#background:green;
 }
 
 .red{ 
 
-background:red;
+#background:red;
 }
 
 .blue{ 
-background: blue;
+#background: blue;
 }
 
 

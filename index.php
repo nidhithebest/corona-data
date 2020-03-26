@@ -45,8 +45,8 @@ width:100%;
 }
 
 tr {
-  background: red;
-opacity:0.5;
+  
+
 
   
 }

@@ -50,7 +50,7 @@ font-weight: bold;
 <body>
 
 <div style="text-align:center;"><H1>CORONA COUNT NOW</H1></div>
-<div style="margin-top:30px;"><img src="https://flaglane.com/download/indian-flag/indian-flag-large.png" style="width:300px;; height:250px;" /></div>
+<div style="margin-top:30px;"><span style="text-align:center;">INDIA</span></div>
 
 <div style="margin-top:30px;">
 <table  align="center">

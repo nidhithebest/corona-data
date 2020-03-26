@@ -37,6 +37,11 @@ background-image: url('https://cnet2.cbsistatic.com/img/rmj0S7_tD0BIrxU6Q-bYf_uz
   transform: translate(-50%, -50%);
 }
 
+table{
+width:100%;
+
+}
+
 tr {
   background: red;
 

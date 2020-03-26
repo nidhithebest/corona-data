@@ -62,11 +62,11 @@ font-weight: bold;
 </head>
 <body>
 
-<div style="text-align:center;"><H2>CORONA COUNT</H2></div>
+<div style="text-align:center;"><H1>CORONA COUNT</H1></div>
 <div style="margin-top:30px; text-align:center;"><h3>INDIA<h3></div>
 
 <div style="margin-top:30px;">
-<table  align="center" width="100%">
+<table  align="center">
 <tr>
 <td>TOTAL CASES</td><td style="color:#fff;"><?php echo $jsonObj->$cases;  ?></td>
 </tr>

@@ -64,6 +64,16 @@ font-weight: bold;
 background:green;
 }
 
+.red{ 
+
+background:red;
+}
+
+.blue{ 
+background: blue;
+}
+
+
 </style>
 </head>
 <body>
@@ -73,22 +83,22 @@ background:green;
 
 <div style="margin-top:30px;">
 <table  align="center">
-<tr>
+<tr class="blue">
 <td>TOTAL CASES</td><td style="color:#fff;"><?php echo $jsonObj->$cases;  ?></td>
 </tr>
-<tr>
+<tr class="blue">
 <td>TODAY'S CASES</td><td style="color:#fff;"><?php echo $jsonObj->$todayCases; ?></td>
 </tr>
 <tr class="green">
 <td>RECOVERED</td><td style="color:#fff;"><?php echo $jsonObj->$recovered; ?></td>
 </tr>
-       <tr>
+       <tr class="red">
 <td>DEATHS</td><td style="color:#fff;"><?php echo $jsonObj->$deaths; ?></td>
 </tr>
-       <tr>
+       <tr class="red">
 <td>TODAY'S DEATHS</td><td style="color:#fff;"><?php echo $jsonObj->$todayDeaths; ?></td>
 </tr>
-<tr>
+<tr class="blue">
 <td>ACTIVE</td><td style="color:#fff;"><?php echo $jsonObj->$active; ?></td>
 </tr>
 

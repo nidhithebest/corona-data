@@ -46,6 +46,7 @@ width:100%;
 
 tr {
   background: red;
+opecity:0.5;
 
   
 }

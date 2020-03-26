@@ -30,7 +30,10 @@ img {
 }
 body{
 background-image: url('https://cnet2.cbsistatic.com/img/rmj0S7_tD0BIrxU6Q-bYf_uzGS4=/1092x0/2020/03/06/05798b4a-3fda-4d7d-a10d-390b6ef0366b/gettyimages-1208505324.jpg');
-vertical-align:center;
+ position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 tr {

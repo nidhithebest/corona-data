@@ -61,7 +61,7 @@ font-weight: bold;
 }
 
 .green{
-#background:green;
+background:green;
 }
 
 .red{ 
@@ -90,7 +90,7 @@ font-weight: bold;
 <td>TODAY'S CASES</td><td style="color:#fff;"><?php echo $jsonObj->$todayCases; ?></td>
 </tr>
 <tr class="green">
-<td>RECOVERED</td><td style="color:#fff;"><?php echo $jsonObj->$recovered; ?></td>
+<td>RECOVERED</td><td><?php echo $jsonObj->$recovered; ?></td>
 </tr>
        <tr class="red">
 <td>DEATHS</td><td style="color:#fff;"><?php echo $jsonObj->$deaths; ?></td>
